@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	../upregulated.merged.bed	subSets/allDown.bed	7266	63	1	1.000000	1.777719	0.562519	8.405484e-01	3.763880e-01

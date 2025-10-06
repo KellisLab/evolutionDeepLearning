@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	/Users/dickinsonia/Scavenger/Datasets/Genomes/hg38/bed/HGE_merged.bed	divergentPeaks/upregulatedResults/eye_embryo_56_days_male_embryo_76_days.upregulated.bed	30	1216	1	1.000000	2.147006	0.465765	8.744691e-01	2.934514e-01

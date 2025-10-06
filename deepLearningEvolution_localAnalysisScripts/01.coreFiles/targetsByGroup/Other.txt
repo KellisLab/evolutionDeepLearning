@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+breast_epithelium_female_adult__51_year_	breast_epithelium_female_adult_51_year	472	Breast Epithelium Female Adult (51 year) DNASE	Breast Epithelium	Other	Adult	Tissue
+MCF_7_treated_with_100_nM_estradiol_for_1_hour	MCF_7_estradiol_1_hour	129	MCF-7 Treated with 100nM Estradiol for 1 hour DNASE	MCF-7 Treated with 100nM Estradiol for 1 hour	Other	Cell Line	Cell Line

@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	/Users/dickinsonia/Scavenger/Datasets/Genomes/hg38/bed/HGE_merged.bed	divergentPeaks/upregulatedResults/HT_29.upregulated.bed	4	525	0	1.000000	0.160188	0.000000	1.030424e+00	9.201687e-01

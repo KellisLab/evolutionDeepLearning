@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	/Users/dickinsonia/Scavenger/Datasets/Genomes/hg38/bed/HGE_merged.bed	divergentPeaks/upregulatedResults/breast_epithelium_female_adult_51_year.upregulated.bed	6	103	0	1.000000	0.056939	0.000000	1.626070e+00	1.625394e+00

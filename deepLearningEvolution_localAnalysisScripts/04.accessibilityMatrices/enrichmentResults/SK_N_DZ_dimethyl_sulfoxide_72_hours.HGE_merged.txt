@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	/Users/dickinsonia/Scavenger/Datasets/Genomes/hg38/bed/HGE_merged.bed	divergentPeaks/upregulatedResults/SK_N_DZ_dimethyl_sulfoxide_72_hours.upregulated.bed	0	66	0	1.000000	0.000000	NaN	NaN	NaN

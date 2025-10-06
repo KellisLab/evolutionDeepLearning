@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+heart_embryo__80_days_	heart_embryo_80_days	570	Heart Embryo (80 days) DNASE	Heart Embryo	Heart	Developing	Tissue
+heart_male_adult__27_years__and_male_adult__35_years_	heart_male_adult_27_years_35_years	22	Heart Male Adult (27 years) and Male Adult (35 years) DNASE	Heart Male Adult	Heart	Adult	Tissue

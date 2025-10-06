@@ -1,0 +1,2 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+omental_fat_pad_female_adult__51_year_	omental_fat_pad_female_adult_51_year	285	Omental Fat Pad (Female Adult, 51 year) DNASE	Omental Fat Pad (Female Adult, 51 year)	Adipose	Adult	Tissue

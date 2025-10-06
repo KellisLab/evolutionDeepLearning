@@ -1,0 +1,6 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+astrocyte_of_the_spinal_cord	astrocyte_of_the_spinal_cord	77	Astrocyte of the Spinal Cord DNASE	Astrocyte	Brain	Adult	Tissue
+brain_female_embryo__142_days_	brain_female_embryo_142_days	261	Brain Female Embryo (142 days) DNASE	Brain	Brain	Developing	Tissue
+brain_male_embryo__105_days_	brain_male_embryo_105_days	370	Brain Male Embryo (105 days) DNASE	Brain	Brain	Developing	Tissue
+cerebellum_male_adult__27_years__and_male_adult__35_years_	cerebellum_male_adult_27_years_35_years	0	Cerebellum Male Adult (27 years) and Male Adult (35 years) DNASE	Cerebellum	Brain	Adult	Tissue
+inferior_parietal_cortex_male_adult__84_years_	inferior_parietal_cortex_male_adult_84_years	669	Inferior Parietal Cortex Male Adult (84 years) DNASE	Inferior Parietal Cortex Male Adult	Brain	Adult	Tissue

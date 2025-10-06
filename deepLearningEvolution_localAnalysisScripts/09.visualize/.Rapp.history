@@ -1,0 +1,197 @@
+library(ggpubr)
+geom_tile()
+data <- red.csv("out.pilotViz.txt", header=TRUE, sep="\t")
+data <- read.csv("out.pilotViz.txt", header=TRUE, sep="\t")
+head(data)
+ggscatter(data, x="Window", y="Amplitude", color="Track", facet.by="Gene")
+ggline(data, x="Window", y="Amplitude", color="Track", facet.by="Gene")
+ggbar(data, x="Window", y="Amplitude", color="Track", facet.by="Gene")
+ggbarplot(data, x="Window", y="Amplitude", color="Track", facet.by="Gene")
+ggline(data, x="Window", y="Amplitude", color="Track", facet.by="Gene")
+geom_tile(subset(data, Track == "CAGEMacrophageMonocyteDerived"), x="Window", y="Gene", stat="Amplitude")
+ggplot(data, x=Window, y=Gene)+geom_tile(stat="Amplitude")
+library(plotly)
+library(ggpubr)
+data <- read.csv("out.pilotViz.txt", header=TRUE, sep="\t")
+head(data)
+ggplot(data, aes=(x=Window, y=Gene, fill=Amplitude))+geom+tile()
+ggplot(data, aes=(x = Window, y = Gene, fill = Amplitude))+geom+tile()
+ggplot(data, aes(x = Window, y = Gene, fill = Amplitude))+geom+tile()
+ggplot(data, aes(x = Window, y = Gene, fill = Amplitude))+geom_tile()
+data$logAmplitude <- log10(data$Amplitude)
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()
+library(dplyr)#
+library(ggplot2)
+data_sorted <- data %>%#
+  group_by(Gene) %>%#
+  arrange(desc(max(Amplitude))) %>%#
+  ungroup()
+head(data_sorted)
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+ggplot(data_sorted, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+head(data)
+amplitude_window5 <- data %>%#
+  filter(Window == 5) %>%#
+  arrange(desc(Amplitude)) %>%#
+  select(Gene, Amplitude)
+amplitude_window5
+data_sorted <- data %>%#
+  arrange(factor(Gene, levels = amplitude_window5$Gene), desc(Amplitude))
+amplitude_window5 <- data %>%#
+   filter(Tissue == CAGEMacrophageMonocyteDerived) %>%#
+   filter(Window == 5) %>%#
+   arrange(desc(Amplitude)) %>%#
+   select(Gene, Amplitude)
+head(data)
+amplitude_window5 <- data %>%#
+   filter(Track == CAGEMacrophageMonocyteDerived) %>%#
+   filter(Window == 5) %>%#
+   arrange(desc(Amplitude)) %>%#
+   select(Gene, Amplitude)
+amplitude_window5 <- data %>%#
+   filter(Track == "CAGEMacrophageMonocyteDerived") %>%#
+   filter(Window == 5) %>%#
+   arrange(desc(Amplitude)) %>%#
+   select(Gene, Amplitude)
+amplitude_window5
+data_sorted <- data %>%#
+  filter(Track == "CAGEMacrophageMonocyteDerived") %>%#
+  arrange(factor(Gene, levels = amplitude_window5$Gene), desc(Amplitude))
+head(data_sorted)
+ggplot(data_sorted, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+head(data_sorted)
+gene_order <- amplitude_window5$Gene
+gene_order
+data$Gene <- factor(data$Gene, levels = gene_order)
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+data$Gene <- factor(data$Gene, levels = rev(gene_order))
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")+theme_classic()
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude, facet.by="Track"))+geom_tile()+scale_fill_gradient(low = "white", high = "red")+theme_classic()
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")+theme_classic()+facet("Track")
+amplitude_window5_track <- data %>%#
+  filter(Window == 5) %>%#
+  arrange(Track, desc(Amplitude)) %>%#
+  select(Track, Gene, Amplitude)
+amplitude_window5_track
+gene_order_by_track <- amplitude_window5_track %>%#
+  group_by(Track) %>%#
+  summarize(gene_order = list(rev(Gene))) %>%#
+  ungroup()
+gene_order_by_track
+gene_order_by_track$CAGENeutrophils
+data$Gene <- factor(data$Gene, levels = gene_order_by_track$gene_order[[1]])
+ggplot(data, aes(x = Window, y = Gene, fill = Amplitude)) +#
+  geom_tile() +#
+  scale_fill_gradient(low = "white", high = "red") +#
+  labs(fill = "log(Amplitude)") +#
+  facet_wrap(~Track, scales = "free_y", ncol = 1)
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude)) +#
+  geom_tile() +#
+  scale_fill_gradient(low = "white", high = "red") +#
+  labs(fill = "log(Amplitude)") +#
+  facet_wrap(~Track, scales = "free_y", ncol = 1)
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude)) +#
+  geom_tile() +#
+  scale_fill_gradient(low = "white", high = "red") +#
+  labs(fill = "log(Amplitude)") +#
+  facet_wrap(~Track, scales = "free_y", ncol = 1)+theme_classic()
+ggplot(data, aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+ggplot(subset(data, Track == "CAGENeutrophils"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+ggplot(subset(data, Track == "CAGEMacrophageMonocyteDerived"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")
+ggplot(subset(data, Track == "CAGEMacrophageMonocyteDerived"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")+theme_simple()
+ggplot(subset(data, Track == "CAGEMacrophageMonocyteDerived"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")+theme_minimal()
+library(ggpubr)#
+library(dplyr)
+data <- read.csv("pollenViz.txt", header=TRUE, sep="\t")
+head(data)
+amplitude_window25_track <- data %>%#
+   filter(Window == 25) %>%#
+   arrange(Track, desc(Amplitude)) %>%#
+   select(Track, Gene, Amplitude)
+gene_order_by_track <- amplitude_window25_track %>%#
+   group_by(Track) %>%#
+   summarize(gene_order = list(rev(Gene))) %>%#
+   ungroup()
+data$Gene <- factor(data$Gene, levels = gene_order_by_track$gene_order[[1]])
+gene_order_by_track$gene_order[[1]]
+data <- read.csv("pollenViz.txt", header=TRUE, sep="\t")#
+#
+amplitude_window25_track <- data %>%#
+   filter(Window == 25) %>%#
+   arrange(Track, desc(Amplitude)) %>%#
+   select(Track, Gene, Amplitude)#
+gene_order_by_track <- amplitude_window25_track %>%#
+   group_by(Track) %>%#
+   summarize(gene_order = list(rev(Gene))) %>%#
+   ungroup()#
+data$Gene <- factor(data$Gene, levels = gene_order_by_track$gene_order[[1]])
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")+theme_minimal()
+data$logAmplitude <- log10(data$Amplitude)
+head(data)
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red")+theme_minimal()
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-4, 2))+theme_minimal()
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-4, 2), oob=scales::squish)+theme_minimal()
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-4, 2), oob=scales::squish)+theme_minimal()
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_minimal()+theme(axis.text.y=element_text(size=2))
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = Window, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_classic()+theme(axis.text.y=element_blank())
+data$DistanceFromTss <- data$Window - 25
+head(data)
+data$DistanceFromTss <- 128 * (data$Window - 25)
+head(data)
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = DistanceFromTss, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_classic()+theme(axis.text.y=element_blank())
+ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = DistanceFromTss, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_classic()+theme(axis.text.y=element_blank())+ylab("1401 Brain Expressed Genes")+ggtitle("CAGE Expression Signal v. Distance from TSS, Adult Brain Enformer Prediction Track")
+histogram_plot <- ggplot(data, aes(x = DistanceFromTss, y = Amplitude, fill = logAmplitude)) +#
+  geom_bar(stat = "identity") +#
+  scale_fill_gradient(low = "white", high = "red", limits = c(-2, 2), oob = scales::squish) +#
+  theme_classic() +#
+  theme(axis.text.y = element_blank()) +#
+  theme(axis.title.y = element_blank())
+histogram_plot
+ggplot(data, aes(x = DistanceFromTss, y = Amplitude)) +#
+  geom_bar(stat = "identity") +#
+  theme_classic() +#
+  theme(axis.text.y = element_blank()) +#
+  theme(axis.title.y = element_blank())
+ggplot(data, aes(x = DistanceFromTss, y = logAmplitude)) +#
+  geom_bar(stat = "identity") +#
+  theme_classic() +#
+  theme(axis.text.y = element_blank()) +#
+  theme(axis.title.y = element_blank())
+ggplot(data, aes(x = DistanceFromTss, y = Amplitude, color="darkgreen")) +#
+  geom_bar(stat = "identity") +#
+  theme_classic() +#
+  theme(axis.text.y = element_blank()) +#
+  theme(axis.title.y = element_blank())
+ggplot(data, aes(x = DistanceFromTss, y = Amplitude, fill="darkgreen")) +#
+  geom_bar(stat = "identity") +#
+  theme_classic()
+heatmapPlot <- ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = DistanceFromTss, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_classic()+theme(axis.text.y=element_blank())#
+#
+histogramPlot <- ggplot(data, aes(x = DistanceFromTss, y = Amplitude, fill="darkgreen")) + geom_bar(stat = "identity") + theme_classic()
+library(patchwork)
+install.packages("patchwork")
+library(patchwork)
+compound_plot <- heatmap_plot / histogram_plot + plot_layout(heights = c(3, 1))
+compound_plot <- heatmapPlot / histogramPlot + plot_layout(heights = c(3, 1))
+print(compound_plot)
+compound_plot <- histogramPlot  / heatmapPlot + plot_layout(heights = c(3, 1))
+print(compound_plot)
+compound_plot <- histogramPlot  / heatmapPlot + plot_layout(heights = c(1, 3))
+print(compound_plot)
+heatmapPlot <- ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = DistanceFromTss, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_classic()+theme(axis.text.y=element_blank())#
+#
+histogramPlot <- ggplot(data, aes(x = DistanceFromTss, y = Amplitude)) + geom_bar(stat = "identity") + theme_classic()#
+compound_plot <- histogramPlot  / heatmapPlot + plot_layout(heights = c(1, 3))#
+print(compound_plot)
+heatmapPlot <- ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = DistanceFromTss, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_classic()+theme(axis.text.y=element_blank())#
+#
+histogramPlot <- ggplot(data, aes(x = DistanceFromTss, y = Amplitude)) + geom_bar(stat = "identity", fill="red") + theme_classic()#
+compound_plot <- histogramPlot  / heatmapPlot + plot_layout(heights = c(1, 3))#
+print(compound_plot)
+heatmapPlot <- ggplot(subset(data, Track == "CAGE_brain__adult__pool1"), aes(x = DistanceFromTss, y = Gene, fill = logAmplitude))+geom_tile()+scale_fill_gradient(low = "white", high = "red", limits=c(-2, 2), oob=scales::squish)+theme_classic()+theme(axis.text.y=element_blank())+ylab("1401 Genes Expressed in Brain")#
+#
+histogramPlot <- ggplot(data, aes(x = DistanceFromTss, y = Amplitude)) + geom_bar(stat = "identity", fill="red") + theme_classic()#
+compound_plot <- histogramPlot  / heatmapPlot + plot_layout(heights = c(1, 3))#
+print(compound_plot)

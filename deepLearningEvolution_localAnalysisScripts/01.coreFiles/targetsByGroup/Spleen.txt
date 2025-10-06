@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+spleen_embryo__112_days_	spleen_embryo_112_days	511	Spleen (Embryo, 112 days) DNASE	Spleen (Embryo, 112 days)	Spleen	Developing	Tissue
+spleen_male_adult__54_years_	spleen_male_adult_54_years	594	Spleen (Male Adult, 54 years) DNASE	Spleen (Male Adult, 54 years)	Spleen	Adult	Tissue

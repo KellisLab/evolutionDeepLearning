@@ -1,0 +1,2 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+urinary_bladder_male_embryo__76_days_	urinary_bladder_male_embryo_76_days	574	Urinary Bladder (Male Embryo, 76 days) DNASE	Urinary Bladder (Male Embryo, 76 days)	Urinary	Developing	Tissue

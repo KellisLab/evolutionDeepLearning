@@ -1,0 +1,5 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+gastrocnemius_medialis_female_adult__51_year_	gastrocnemius_medialis_female_adult_51_year	282	Gastrocnemius Medialis Female Adult (51 year) DNASE	Gastrocnemius Medialis	Muscle	Adult	Tissue
+gastrocnemius_medialis_male_adult__37_years_	gastrocnemius_medialis_male_adult_37_years	250	Gastrocnemius Medialis Male Adult (37 years) DNASE	Gastrocnemius Medialis	Muscle	Adult	Tissue
+LHCN_M2	LHCN_M2	125	LHCN_M2 DNASE	LHCN_M2	Muscle	Cell Line	Cell Line
+muscle_of_back_female_embryo__98_days_	muscle_of_back_female_embryo_98_days	199	Muscle of Back Female Embryo (98 days) DNASE	Muscle of Back Female Embryo	Muscle	Developing	Tissue

@@ -1,0 +1,4 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+GM12864	GM12864	67	GM12864 DNASE	GM12864	Lymphoblastoid	Cell Line	Cell Line
+GM12865	GM12865	68	GM12865 DNASE	GM12865	Lymphoblastoid	Cell Line	Cell Line
+GM12878	GM12878_1	12	GM12878 DNASE	GM12878	Lymphoblastoid	Cell Line	Cell Line

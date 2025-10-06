@@ -1,0 +1,2 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+left_lung_male_embryo__115_days_	left_lung_male_embryo_115_days	632	Left Lung Male Embryo (115 days) DNASE	Left Lung Male Embryo	Lung	Developing	Tissue

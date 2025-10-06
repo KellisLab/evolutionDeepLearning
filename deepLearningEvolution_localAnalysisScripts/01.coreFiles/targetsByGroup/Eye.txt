@@ -1,0 +1,2 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+eye_embryo__56_days__and_male_embryo__76_days_	eye_embryo_56_days_male_embryo_76_days	557	Eye Embryo (56 days) and Male Embryo (76 days) DNASE	Eye	Eye	Developing	Tissue

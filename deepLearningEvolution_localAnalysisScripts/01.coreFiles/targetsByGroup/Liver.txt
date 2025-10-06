@@ -1,0 +1,6 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+hepatocyte	hepatocyte	26	Hepatocyte DNASE	Hepatocyte	Liver	Adult	Tissue
+HepG2	HepG2_1	27	HepG2 DNASE	HepG2	Liver	Cell Line	Cell Line
+HepG2	HepG2_3	234	HepG2 DNASE	HepG2	Liver	Cell Line	Cell Line
+liver_embryo__59_days__and_embryo__80_days_	liver_embryo_59_days_80_days	242	Liver Embryo (59 days) and Embryo (80 days) DNASE	Liver Embryo and Embryo	Liver	Developing	Tissue
+liver_female_embryo__101_day__and_female_embryo__113_days_	liver_female_embryo_101_day_113_days	452	Liver Female Embryo (101 day) and Female Embryo (113 days) DNASE	Liver Female Embryo and Female Embryo	Liver	Developing	Tissue

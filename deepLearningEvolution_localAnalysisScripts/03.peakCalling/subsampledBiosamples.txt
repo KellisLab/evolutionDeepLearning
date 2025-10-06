@@ -1,0 +1,101 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+A172	A172	631	A172 DNASE	A172	Cancer	Cell Line	Cell Line
+A549	A549	47	A549 DNASE	A549	Cancer	Cell Line	Cell Line
+A673	A673	340	A673 DNASE	A673	Cancer	Cell Line	Cell Line
+ACHN	ACHN	290	ACHN DNASE	ACHN	Cancer	Cell Line	Cell Line
+adrenal_gland_female_embryo__85_days_	adrenal_gland_female_embryo_85_days	608	Adrenal Gland Female Embryo (85 days) DNASE	Adrenal Gland	Endocrine	Developing	Tissue
+adrenal_gland_male_adult__37_years_	adrenal_gland_male_adult_37_years	265	Adrenal Gland Male Adult (37 years) DNASE	Adrenal Gland	Endocrine	Adult	Tissue
+amniotic_epithelial_cell	amniotic_epithelial_cell	79	Amniotic Epithelial Cell DNASE	Amniotic Epithelial Cell	Placenta & EEM	Developing	Tissue
+astrocyte_of_the_spinal_cord	astrocyte_of_the_spinal_cord	77	Astrocyte of the Spinal Cord DNASE	Astrocyte	Brain	Adult	Tissue
+B_cell_female_adult__34_years_	B_cell_female_adult_34_years	617	B Cell Female Adult (34 years) DNASE	B Cell	HSC & B Cell	Adult	Tissue
+bipolar_neuron_originated_from_GM23338_treated_with_0_5_ug_mL_doxycycline_hyclate_for_4_days	bipolar_neuron_from_GM23338_doxycycline_4_days	485	Bipolar Neuron from GM23338 treated with Doxycycline (4 days) DNASE	Bipolar Neuron	ES-deriv	Cell Line	Tissue
+body_of_pancreas_female_adult__51_year_	body_of_pancreas_female_adult_51_year	431	Body of Pancreas Female Adult (51 year) DNASE	Body of Pancreas	Pancreas	Adult	Tissue
+brain_female_embryo__142_days_	brain_female_embryo_142_days	261	Brain Female Embryo (142 days) DNASE	Brain	Brain	Developing	Tissue
+brain_male_embryo__105_days_	brain_male_embryo_105_days	370	Brain Male Embryo (105 days) DNASE	Brain	Brain	Developing	Tissue
+brain_pericyte	brain_pericyte	81	Brain Pericyte DNASE	Brain Pericyte	Stromal	Adult	Tissue
+breast_epithelium_female_adult__51_year_	breast_epithelium_female_adult_51_year	472	Breast Epithelium Female Adult (51 year) DNASE	Breast Epithelium	Other	Adult	Tissue
+bronchial_epithelial_cell_female_treated_with_retinoic_acid	bronchial_epithelial_cell_female_retinoic_acid	134	Bronchial Epithelial Cell Female (treated with retinoic acid) DNASE	Bronchial Epithelial Cell	Epithelial	Adult	Tissue
+Caco_2	Caco_2	59	Caco-2 DNASE	Caco-2	Cancer	Cell Line	Cell Line
+Caki2	Caki2	425	Caki2 DNASE	Caki2	Cancer	Cell Line	Cell Line
+cardiac_mesoderm	cardiac_mesoderm_4	74	Cardiac Mesoderm DNASE	Cardiac Mesoderm	ES-deriv	Cell Line	Tissue
+CD14_positive_monocyte_female	CD14_positive_monocyte_female_1	41	CD14 Positive Monocyte Female DNASE	CD14 Positive Monocyte	HSC & B Cell	Adult	Tissue
+cerebellum_male_adult__27_years__and_male_adult__35_years_	cerebellum_male_adult_27_years_35_years	0	Cerebellum Male Adult (27 years) and Male Adult (35 years) DNASE	Cerebellum	Brain	Adult	Tissue
+CMK	CMK	63	CMK DNASE	CMK	Cancer	Cell Line	Cell Line
+dermis_blood_vessel_endothelial_cell_male_newborn	dermis_blood_vessel_endothelial_cell_male_newborn_2	104	Dermis Blood Vessel Endothelial Cell Male Newborn DNASE	Dermis Blood Vessel Endothelial Cell	Endothelial	Newborn	Tissue
+EH	EH	443	EH DNASE	EH	Cancer	Cell Line	Cell Line
+eye_embryo__56_days__and_male_embryo__76_days_	eye_embryo_56_days_male_embryo_76_days	557	Eye Embryo (56 days) and Male Embryo (76 days) DNASE	Eye	Eye	Developing	Tissue
+femur_female_embryo__98_days_	femur_female_embryo_98_days	571	Femur Female Embryo (98 days) DNASE	Femur	Bone	Developing	Tissue
+fibroblast_of_dermis_female_adult	fibroblast_of_dermis_female_adult	135	Fibroblast of Dermis Female Adult DNASE	Fibroblast of Dermis	Stromal	Adult	Tissue
+gastrocnemius_medialis_female_adult__51_year_	gastrocnemius_medialis_female_adult_51_year	282	Gastrocnemius Medialis Female Adult (51 year) DNASE	Gastrocnemius Medialis	Muscle	Adult	Tissue
+gastrocnemius_medialis_male_adult__37_years_	gastrocnemius_medialis_male_adult_37_years	250	Gastrocnemius Medialis Male Adult (37 years) DNASE	Gastrocnemius Medialis	Muscle	Adult	Tissue
+GM03348_genetically_modified_using_transduction_treated_with_3_ug_mL_doxycycline_for_10_days	GM03348_genetically_modified_transduction_doxycycline_10_days	5	GM03348 Genetically Modified (Transduction, Treated with 3 ug/mL Doxycycline for 10 days) DNASE	GM03348	Stromal	Cell Line	Cell Line
+GM12864	GM12864	67	GM12864 DNASE	GM12864	Lymphoblastoid	Cell Line	Cell Line
+GM12865	GM12865	68	GM12865 DNASE	GM12865	Lymphoblastoid	Cell Line	Cell Line
+GM12878	GM12878_1	12	GM12878 DNASE	GM12878	Lymphoblastoid	Cell Line	Cell Line
+H1_hESC	H1_hESC_1	19	H1 hESC DNASE	H1 hESC	ESC	Cell Line	Cell Line
+H4	H4	572	H4 DNASE	H4	Epithelial	Cell Line	Cell Line
+HAP_1	HAP_1	480	HAP-1 DNASE	HAP-1	HSC & B Cell	Cell Line	Cell Line
+heart_embryo__80_days_	heart_embryo_80_days	570	Heart Embryo (80 days) DNASE	Heart Embryo	Heart	Developing	Tissue
+heart_male_adult__27_years__and_male_adult__35_years_	heart_male_adult_27_years_35_years	22	Heart Male Adult (27 years) and Male Adult (35 years) DNASE	Heart Male Adult	Heart	Adult	Tissue
+HeLa_S3	HeLa_S3_1	25	HeLa S3 DNASE	HeLa S3	Cancer	Cell Line	Cell Line
+HeLa_S3_G1b_phase	HeLa_S3_G1b_phase	90	HeLa S3 G1b Phase DNASE	HeLa S3 G1b Phase	Cancer	Cell Line	Cell Line
+hematopoietic_multipotent_progenitor_cell	hematopoietic_multipotent_progenitor_cell_2	211	Hematopoietic Multipotent Progenitor Cell DNASE	Hematopoietic Multipotent Progenitor Cell	HSC & B Cell	Adult	Tissue
+hepatocyte	hepatocyte	26	Hepatocyte DNASE	Hepatocyte	Liver	Adult	Tissue
+hepatocyte_originated_from_H9	hepatocyte_from_H9	347	Hepatocyte Originated from H9 DNASE	Hepatocyte Originated from H9	ES-deriv	Cell Line	Cell Line
+HepG2	HepG2_1	27	HepG2 DNASE	HepG2	Liver	Cell Line	Cell Line
+HepG2	HepG2_3	234	HepG2 DNASE	HepG2	Liver	Cell Line	Cell Line
+HK_2	HK_2	490	HK-2 DNASE	HK-2	Kidney	Cell Line	Cell Line
+HT_29	HT_29	575	HT-29 DNASE	HT-29	Cancer	Cell Line	Cell Line
+inferior_parietal_cortex_male_adult__84_years_	inferior_parietal_cortex_male_adult_84_years	669	Inferior Parietal Cortex Male Adult (84 years) DNASE	Inferior Parietal Cortex Male Adult	Brain	Adult	Tissue
+islet_precursor_cell	islet_precursor_cell	277	Islet Precursor Cell DNASE	Islet Precursor Cell	Pancreas	Adult	Tissue
+Jurkat_clone_E61	Jurkat_clone_E61	120	Jurkat Clone E61 DNASE	Jurkat Clone E61	Cancer	Cell Line	Cell Line
+K562	K562_3	123	K562 DNASE	K562	HSC & B Cell	Cell Line	Cell Line
+K562_treated_with_1_uM_vorinostat_for_72_hours	K562_vorinostat_72_hours	33	K562 treated with 1 uM vorinostat for 72 hours DNASE	K562 treated with 1 uM vorinostat for 72 hours	HSC & B Cell	Cell Line	Cell Line
+keratinocyte_female	keratinocyte_female_1	42	Keratinocyte Female DNASE	Keratinocyte Female	Epithelial	Adult	Tissue
+kidney_epithelial_cell	kidney_epithelial_cell	113	Kidney Epithelial Cell DNASE	Kidney Epithelial Cell	Epithelial	Adult	Tissue
+L1_S8	L1_S8	322	L1_S8 DNASE	L1_S8	Bone	Cell Line	Cell Line
+large_intestine_male_embryo__105_days_	large_intestine_male_embryo_105_days_2	505	Large Intestine Male Embryo (105 days) DNASE	Large Intestine Male Embryo	Digestive	Developing	Tissue
+left_lung_male_embryo__115_days_	left_lung_male_embryo_115_days	632	Left Lung Male Embryo (115 days) DNASE	Left Lung Male Embryo	Lung	Developing	Tissue
+left_renal_pelvis_male_embryo__105_days_	left_renal_pelvis_male_embryo_105_days_3	325	Left Renal Pelvis Male Embryo (105 days) DNASE	Left Renal Pelvis Male Embryo	Kidney	Developing	Tissue
+LHCN_M2	LHCN_M2	125	LHCN_M2 DNASE	LHCN_M2	Muscle	Cell Line	Cell Line
+liver_embryo__59_days__and_embryo__80_days_	liver_embryo_59_days_80_days	242	Liver Embryo (59 days) and Embryo (80 days) DNASE	Liver Embryo and Embryo	Liver	Developing	Tissue
+liver_female_embryo__101_day__and_female_embryo__113_days_	liver_female_embryo_101_day_113_days	452	Liver Female Embryo (101 day) and Female Embryo (113 days) DNASE	Liver Female Embryo and Female Embryo	Liver	Developing	Tissue
+LNCaP_clone_FGC	LNCaP_clone_FGC_2	126	LNCaP Clone FGC DNASE	LNCaP Clone FGC	Cancer	Cell Line	Cell Line
+mammary_epithelial_cell_female_adult__18_years_	mammary_epithelial_cell_female_adult_18_years	281	Mammary Epithelial Cell Female Adult (18 years) DNASE	Mammary Epithelial Cell Female Adult	Epithelial	Adult	Tissue
+MCF_10A_treated_with_1_uM_tamoxifen_for_6_hours	MCF_10A_tamoxifen_6_hours	359	MCF-10A Treated with 1uM Tamoxifen for 6 hours DNASE	MCF-10A Treated with 1uM Tamoxifen for 6 hours	Epithelial	Adult	Tissue
+MCF_7_treated_with_100_nM_estradiol_for_1_hour	MCF_7_estradiol_1_hour	129	MCF-7 Treated with 100nM Estradiol for 1 hour DNASE	MCF-7 Treated with 100nM Estradiol for 1 hour	Other	Cell Line	Cell Line
+medulloblastoma	medulloblastoma	39	Medulloblastoma DNASE	Medulloblastoma	Cancer	Cell Line	Cell Line
+MG63	MG63	206	MG63 DNASE	MG63	Cancer	Cell Line	Cell Line
+MM_1S	MM_1S	398	MM.1S DNASE	MM.1S	Cancer	Cell Line	Cell Line
+muscle_of_back_female_embryo__98_days_	muscle_of_back_female_embryo_98_days	199	Muscle of Back Female Embryo (98 days) DNASE	Muscle of Back Female Embryo	Muscle	Developing	Tissue
+NB4	NB4	132	NB4 DNASE	NB4	Cancer	Cell Line	Cell Line
+neural_stem_progenitor_cell_originated_from_H1_hESC	neural_stem_progenitor_cell_from_H1_hESC	305	Neural Stem Progenitor Cell Originated from H1_hESC DNASE	Neural Stem Progenitor Cell Originated from H1_hESC	ES-deriv	Cell Line	In Vitro Differentiated
+omental_fat_pad_female_adult__51_year_	omental_fat_pad_female_adult_51_year	285	Omental Fat Pad (Female Adult, 51 year) DNASE	Omental Fat Pad (Female Adult, 51 year)	Adipose	Adult	Tissue
+ovary_female_adult__30_years_	ovary_female_adult_30_years	525	Ovary (Female Adult, 30 years) DNASE	Ovary (Female Adult, 30 years)	Endocrine	Adult	Tissue
+PC_3	PC_3	190	PC_3 DNASE	PC_3	Cancer	Cell Line	Cell Line
+PC_9	PC_9	636	PC_9 DNASE	PC_9	Cancer	Cell Line	Cell Line
+Peyers_patch_male_adult__54_years_	Peyers_patch_male_adult_54_years	268	Peyers Patch (Male Adult, 54 years) DNASE	Peyers Patch (Male Adult, 54 years)	Digestive	Adult	Tissue
+placenta_embryo__102_days_	placenta_embryo_102_days	445	Placenta (Embryo, 102 days) DNASE	Placenta (Embryo, 102 days)	Placenta & EEM	Developing	Tissue
+placenta_female_embryo__101_day__and_male_embryo__105_days_	placenta_female_embryo_101_day_male_embryo_105_days	459	Placenta (Female Embryo, 101 day, and Male Embryo, 105 days) DNASE	Placenta (Female Embryo, 101 day, and Male Embryo, 105 days)	Placenta & EEM	Developing	Tissue
+retinal_pigment_epithelial_cell	retinal_pigment_epithelial_cell	115	Retinal Pigment Epithelial Cell DNASE	Retinal Pigment Epithelial Cell	Epithelial	Adult	Tissue
+sigmoid_colon_female_adult__51_year_	sigmoid_colon_female_adult_51_year	399	Sigmoid Colon (Female Adult, 51 year) DNASE	Sigmoid Colon (Female Adult, 51 year)	Digestive	Adult	Tissue
+SJCRH30	SJCRH30_2	521	SJCRH30 DNASE	SJCRH30	Cancer	Cell Line	Cell Line
+SK_MEL_5	SK_MEL_5_1	162	SK MEL 5 DNASE	SK MEL 5	Cancer	Cell Line	Cell Line
+SK_N_DZ_treated_with_dimethyl_sulfoxide_for_72_hours	SK_N_DZ_dimethyl_sulfoxide_72_hours	165	SK N DZ (Treated with Dimethyl Sulfoxide for 72 hours) DNASE	SK N DZ (Treated with Dimethyl Sulfoxide for 72 hours)	Cancer	Cell Line	Cell Line
+SK_N_MC	SK_N_MC	145	SK N MC DNASE	SK N MC	Cancer	Cell Line	Cell Line
+spleen_embryo__112_days_	spleen_embryo_112_days	511	Spleen (Embryo, 112 days) DNASE	Spleen (Embryo, 112 days)	Spleen	Developing	Tissue
+spleen_male_adult__54_years_	spleen_male_adult_54_years	594	Spleen (Male Adult, 54 years) DNASE	Spleen (Male Adult, 54 years)	Spleen	Adult	Tissue
+stomach_male_adult__34_years_	stomach_male_adult_34_years	556	Stomach (Male Adult, 34 years) DNASE	Stomach (Male Adult, 34 years)	Digestive	Adult	Tissue
+stomach_male_adult__54_years_	stomach_male_adult_54_years	243	Stomach (Male Adult, 54 years) DNASE	Stomach (Male Adult, 54 years)	Digestive	Adult	Tissue
+stomach_male_embryo__127_days_	stomach_male_embryo_127_days	475	Stomach (Male Embryo, 127 days) DNASE	Stomach (Male Embryo, 127 days)	Digestive	Developing	Tissue
+T_cell_male_adult__36_years_	T_cell_male_adult_36_years	488	T Cell (Male Adult, 36 years) DNASE	T Cell (Male Adult, 36 years)	Blood & T Cell	Adult	Tissue
+T_helper_1_cell	T_helper_1_cell	149	T Helper 1 Cell DNASE	T Helper 1 Cell	Blood & T Cell	Adult	Tissue
+T_helper_2_cell_male_adult__33_years_	T_helper_2_cell_male_adult_33_years	155	T Helper 2 Cell (Male Adult, 33 years) DNASE	T Helper 2 Cell (Male Adult, 33 years)	Blood & T Cell	Adult	Tissue
+T47D_treated_with_10_nM_17B_estradiol_for_30_minutes	T47D_estradiol_30_minutes	45	T47D (Treated with 10 nM 17B Estradiol for 30 minutes) DNASE	T47D (Treated with 10 nM 17B Estradiol for 30 minutes)	Cancer	Cell Line	Cell Line
+testis_male_adult__54_years_	testis_male_adult_54_years	665	Testis (Male Adult, 54 years) DNASE	Testis (Male Adult, 54 years)	Reproductive	Adult	Tissue
+thyroid_gland_male_adult__54_years_	thyroid_gland_male_adult_54_years	618	Thyroid Gland (Male Adult, 54 years) DNASE	Thyroid Gland (Male Adult, 54 years)	Endocrine	Adult	Tissue
+tibial_artery_male_adult__37_years_	tibial_artery_male_adult_37_years	335	Tibial Artery (Male Adult, 37 years) DNASE	Tibial Artery (Male Adult, 37 years)	Endothelial	Adult	Tissue
+transverse_colon_female_adult__51_year_	transverse_colon_female_adult_51_year	546	Transverse Colon (Female Adult, 51 year) DNASE	Transverse Colon (Female Adult, 51 year)	Digestive	Adult	Tissue
+urinary_bladder_male_embryo__76_days_	urinary_bladder_male_embryo_76_days	574	Urinary Bladder (Male Embryo, 76 days) DNASE	Urinary Bladder (Male Embryo, 76 days)	Urinary	Developing	Tissue
+vagina_female_adult__51_year_	vagina_female_adult_51_year	534	Vagina (Female Adult, 51 year) DNASE	Vagina (Female Adult, 51 year)	Reproductive	Adult	Tissue
+WERI_Rb_1	WERI_Rb_1	158	WERI-Rb-1 DNASE	WERI-Rb-1	Cancer	Cell Line	Cell Line

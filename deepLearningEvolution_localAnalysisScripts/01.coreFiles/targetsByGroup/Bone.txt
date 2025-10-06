@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+femur_female_embryo__98_days_	femur_female_embryo_98_days	571	Femur Female Embryo (98 days) DNASE	Femur	Bone	Developing	Tissue
+L1_S8	L1_S8	322	L1_S8 DNASE	L1_S8	Bone	Cell Line	Cell Line

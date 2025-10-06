@@ -1,0 +1,6 @@
+normalApproximate	upInGreatApes.merged.bed	regionsOfInterest/haqer.ordered.bed	3669	12	3	1.000000	4.520063	0.663708	8.891933e-01	2.673443e-01
+normalApproximate	upInGreatApes.merged.bed	regionsOfInterest/HAR_Walsh_List_hg38.bed	3669	17	5	1.000000	6.168630	0.810553	8.026044e-01	3.662185e-01
+normalApproximate	upInGreatApes.merged.bed	regionsOfInterest/UNICORNs.bed	3669	402	241	1.000000	141.409554	1.704270	1.999169e-25	1.000000e+00
+normalApproximate	upInHominins.merged.bed	regionsOfInterest/haqer.ordered.bed	7266	12	9	1.000000	7.528144	1.195514	2.765278e-01	8.840874e-01
+normalApproximate	upInHominins.merged.bed	regionsOfInterest/HAR_Walsh_List_hg38.bed	7266	17	12	1.000000	10.861449	1.104825	3.718619e-01	7.985657e-01
+normalApproximate	upInHominins.merged.bed	regionsOfInterest/UNICORNs.bed	7266	402	161	1.000000	261.029233	0.616789	1.000000e+00	1.144239e-25

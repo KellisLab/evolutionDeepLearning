@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	/Users/dickinsonia/Scavenger/Datasets/Genomes/hg38/bed/HGE_merged.bed	divergentPeaks/upregulatedResults/bronchial_epithelial_cell_female_retinoic_acid.upregulated.bed	5	508	0	1.000000	0.242320	0.000000	9.672814e-01	7.180938e-01

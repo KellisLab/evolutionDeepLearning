@@ -1,0 +1,8 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+bronchial_epithelial_cell_female_treated_with_retinoic_acid	bronchial_epithelial_cell_female_retinoic_acid	134	Bronchial Epithelial Cell Female (treated with retinoic acid) DNASE	Bronchial Epithelial Cell	Epithelial	Adult	Tissue
+H4	H4	572	H4 DNASE	H4	Epithelial	Cell Line	Cell Line
+keratinocyte_female	keratinocyte_female_1	42	Keratinocyte Female DNASE	Keratinocyte Female	Epithelial	Adult	Tissue
+kidney_epithelial_cell	kidney_epithelial_cell	113	Kidney Epithelial Cell DNASE	Kidney Epithelial Cell	Epithelial	Adult	Tissue
+mammary_epithelial_cell_female_adult__18_years_	mammary_epithelial_cell_female_adult_18_years	281	Mammary Epithelial Cell Female Adult (18 years) DNASE	Mammary Epithelial Cell Female Adult	Epithelial	Adult	Tissue
+MCF_10A_treated_with_1_uM_tamoxifen_for_6_hours	MCF_10A_tamoxifen_6_hours	359	MCF-10A Treated with 1uM Tamoxifen for 6 hours DNASE	MCF-10A Treated with 1uM Tamoxifen for 6 hours	Epithelial	Adult	Tissue
+retinal_pigment_epithelial_cell	retinal_pigment_epithelial_cell	115	Retinal Pigment Epithelial Cell DNASE	Retinal Pigment Epithelial Cell	Epithelial	Adult	Tissue

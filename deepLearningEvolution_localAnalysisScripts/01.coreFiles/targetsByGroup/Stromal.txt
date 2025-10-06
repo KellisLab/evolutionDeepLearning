@@ -1,0 +1,4 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+brain_pericyte	brain_pericyte	81	Brain Pericyte DNASE	Brain Pericyte	Stromal	Adult	Tissue
+fibroblast_of_dermis_female_adult	fibroblast_of_dermis_female_adult	135	Fibroblast of Dermis Female Adult DNASE	Fibroblast of Dermis	Stromal	Adult	Tissue
+GM03348_genetically_modified_using_transduction_treated_with_3_ug_mL_doxycycline_for_10_days	GM03348_genetically_modified_transduction_doxycycline_10_days	5	GM03348 Genetically Modified (Transduction, Treated with 3 ug/mL Doxycycline for 10 days) DNASE	GM03348	Stromal	Cell Line	Cell Line

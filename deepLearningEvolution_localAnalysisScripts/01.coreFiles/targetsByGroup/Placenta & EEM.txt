@@ -1,0 +1,4 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+amniotic_epithelial_cell	amniotic_epithelial_cell	79	Amniotic Epithelial Cell DNASE	Amniotic Epithelial Cell	Placenta & EEM	Developing	Tissue
+placenta_embryo__102_days_	placenta_embryo_102_days	445	Placenta (Embryo, 102 days) DNASE	Placenta (Embryo, 102 days)	Placenta & EEM	Developing	Tissue
+placenta_female_embryo__101_day__and_male_embryo__105_days_	placenta_female_embryo_101_day_male_embryo_105_days	459	Placenta (Female Embryo, 101 day, and Male Embryo, 105 days) DNASE	Placenta (Female Embryo, 101 day, and Male Embryo, 105 days)	Placenta & EEM	Developing	Tissue

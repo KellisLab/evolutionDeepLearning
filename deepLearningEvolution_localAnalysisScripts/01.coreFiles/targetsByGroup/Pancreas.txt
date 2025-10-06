@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+body_of_pancreas_female_adult__51_year_	body_of_pancreas_female_adult_51_year	431	Body of Pancreas Female Adult (51 year) DNASE	Body of Pancreas	Pancreas	Adult	Tissue
+islet_precursor_cell	islet_precursor_cell	277	Islet Precursor Cell DNASE	Islet Precursor Cell	Pancreas	Adult	Tissue

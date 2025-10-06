@@ -1,0 +1,4 @@
+normalApproximate	../downregulated.merged.bed	subSets/allDown.bed	3669	63	2	1.000000	0.967230	2.067761	2.835669e-01	8.922263e-01
+normalApproximate	../upregulated.merged.bed	subSets/allDown.bed	7266	63	1	1.000000	1.777719	0.562519	8.405484e-01	3.763880e-01
+normalApproximate	../downregulated.merged.bed	subSets/allUp.bed	3669	49	1	1.000000	0.751814	1.330116	6.223027e-01	7.613087e-01
+normalApproximate	../upregulated.merged.bed	subSets/allUp.bed	7266	49	4	1.000000	1.381851	2.894669	2.957629e-02	9.504561e-01

@@ -1,0 +1,159 @@
+library(ggplot2)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_fill_gradientn(colors=myPal, limits = c(-0.1, 0.1))+theme_classic()
+mutation_labels <- c("A", "C", "G", "T")
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = rev(mutation_labels))
+head(data)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+library(ggplot2)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+mutation_labels <- c("A", "C", "G", "T")#
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = mutation_labels)#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+library(ggplot2)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+mutation_labels <- c("T", "G", "C", "A")#
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = mutation_labels)#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+ggscatter(data, aes(x=Position, y=Amplitude, fill=Mutation))
+library(ggpubr)
+ggscatter(data, aes(x=Position, y=Amplitude, fill=Mutation))
+ggscatter(data, x=Position, y=Amplitude, fill=Mutation)
+ggscatter(data, x="Position", y="Amplitude", fill="Mutation")
+ggscatter(data, x="Position", y="Amplitude", fill="Mutation")+geom_hline(yintercept=0, linetype="dashed")
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", fill="Mutation")+geom_hline(yintercept=0, linetype="dashed")
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", fill="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+gghistogram(subset(data, Amplitude != 0), x=Amplitude)
+gghistogram(subset(data, Amplitude != 0), x="Amplitude")
+gghistogram(subset(data, Amplitude != 0), x="Amplitude", bins=100)
+ggdensity(subset(data, Amplitude != 0), x="Amplitude")
+ggdensity(subset(data, Amplitude != 0), x="Amplitude", fill="lightblue", alpha=0.1)
+ggdensity(subset(data, Amplitude != 0), x="Amplitude", fill="lightblue", alpha=0.4)
+ggdensity(subset(data, Amplitude != 0), x="Amplitude", fill="lightblue", alpha=0.4, rug=TRUE)
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggdotchart(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+library(ggplot2)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+mutation_labels <- c("T", "G", "C", "A")#
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = mutation_labels)#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggdensity(subset(data, Amplitude != 0), x="Amplitude", fill="lightblue", alpha=0.4, rug=TRUE)
+library(ggplot2)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+mutation_labels <- c("T", "G", "C", "A")#
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = mutation_labels)#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+library(ggpubr)
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+library(ggpubr)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggdensity(subset(data, Amplitude != 0), x="Amplitude", fill="lightblue", alpha=0.4, rug=TRUE)
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+tail(data)
+library(ggpubr)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+mutation_labels <- c("T", "G", "C", "A")#
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = mutation_labels)#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggdensity(subset(data, Amplitude != 0), x="Amplitude", fill="lightblue", alpha=0.4, rug=TRUE)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+library(ggpubr)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+mutation_labels <- c("T", "G", "C", "A")#
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = mutation_labels)#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+vcfData <- read.csv("har1.variants.vcf", header=FALSE, sep="\t")
+head(vcfData)
+vcfData <- read.csv("har1.variants.vcf", header=FALSE, sep="\t")
+head(vcfData)
+colnames(vcfData) <- c("Chrom", "Pos", "ID", "Ref", "Alt", "Qual", "Filter", "Info", "Format")
+head(vcfData)
+vcfData$bedPos <- vcfData$Pos - 1
+head(vcfData)
+head(data)
+merged_data <- merge(data, vcfData, by.x = "Position", by.y = "bedPos", all.x = TRUE)
+head(merged_data)
+more(merged_data)
+merged_data
+subset(merged_data, Qual != "NA")
+subset(merged_data, Qual != "NA" & Amplitude != 0)
+subset(merged_data, Qual != "NA" & Mutation == Alt)
+ggdensity(subset(merged_data, Qual != "NA" & Mutation == Alt), x="Amplitude", fill="purple", alpha=0.5)
+ggdensity(subset(merged_data, Qual != "NA" & Mutation == Alt), x="Amplitude", fill="purple", alpha=0.2, rug=TRUE)
+sum(subset(merged_data, Qual != "NA" & Mutation == Alt)$Amplitude)
+ggplot(divData, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+divData <- subset(merged_data, Qual != "NA" & Mutation == Alt)#
+ggplot(divData, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+head(data)
+tail(data)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()+xlim(63102094, 63102276)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()+xlim(63102094, 63102277)
+tail(data)
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()+xlim(63102094, 63102278)
+ggplot(divData, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()+xlim(63102094, 63102278)
+ggplot(divData, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()+xlim(63102094, 63102278)
+ggscatter(divData, x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)+xlim(63102094, 63102278)
+head(merged_data)
+ggdensity(merged_data, x="Amplitude", fill="Qual")
+ggdensity(merged_data, x="Amplitude", fill=Qual)
+ggdensity(merged_data, x="Amplitude", group="Qual")
+ggdensity(merged_data, x="Amplitude", color="Qual")
+merged_data
+head(merged_Data)
+head(merged_data)
+merged_data$Qual <- factor(merged_data$Qual, levels=c("NA", "100"))
+head(merged_data)
+ggdensity(merged_data, x="Amplitude", color="Qual")
+ggdensity(merged_data, x="Amplitude", color="Qual", rug=TRUE)
+ggdensity(merged_data, x="Amplitude", color="Qual", rug=TRUE)+geom_hline(yintercept=0, linetype="dashed")
+ggdensity(merged_data, x="Amplitude", color="Qual", rug=TRUE)+geom_vline(xintercept=0, linetype="dashed")
+ggdensity(merged_data, x="Amplitude", color="Qual", rug=TRUE)+geom_vline(xintercept=0, linetype="dashed")+theme(legend.position="none")
+# first we import packages. In this case, just ggpubr, which stands for ggplot publication ready.#
+# this is a wrapper on the more standard ggplot package that makes nice figures in R.#
+library(ggpubr)#
+#
+# read the dat from a .txt file as a data.frame (kind of like a pandas data structure but for R1)#
+data <- read.csv("result.txt", header=TRUE, sep="\t")#
+# c in R defines a list#
+mutation_labels <- c("T", "G", "C", "A")#
+# here we're telling our data.frame that the field Mutation is an ordered field with levels 0 to 3. This ensures when we plot things#
+# that the appear in A, C, G, T order (alphabetical)#
+data$Mutation <- factor(data$Mutation, levels = rev(0:3), labels = mutation_labels)#
+# defining our color palette for the heatmap, 100 shades, 3 color scale#
+myPal <- colorRampPalette(c("blue", "white", "red"))(100)#
+# #
+ggplot(data, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()+xlim(63102094, 63102278)
+ggscatter(subset(data, Amplitude != 0), x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)
+ggdensity(subset(data, Amplitude != 0), x="Amplitude", fill="lightblue", alpha=0.4, rug=TRUE)
+# parsing the vcf data from the vcf file#
+vcfData <- read.csv("har1.variants.vcf", header=FALSE, sep="\t")#
+# assigning column titles, as the vcf has no header line#
+colnames(vcfData) <- c("Chrom", "Pos", "ID", "Ref", "Alt", "Qual", "Filter", "Info", "Format")#
+# bed uses 0-based positions, but vcf uses 1-based positions. This makes the correction#
+vcfData$bedPos <- vcfData$Pos - 1#
+# merging our original data frame and vcf data frame into a harmonized data structure#
+merged_data <- merge(data, vcfData, by.x = "Position", by.y = "bedPos", all.x = TRUE)#
+# subsetting out the divergent positions (those mutations that actually happened in human evolution)#
+divData <- subset(merged_data, Qual != "NA" & Mutation == Alt)#
+# plotting the variant effects of known mutations in human history#
+ggplot(divData, aes(x=Position, y=Mutation, fill=Amplitude))+geom_tile()+scale_y_discrete(labels=mutation_labels)+scale_fill_gradientn(colors=myPal, limits = c(-0.15, 0.15))+theme_classic()+xlim(63102094, 63102278)#
+ggscatter(divData, x="Position", y="Amplitude", color="Mutation")+geom_hline(yintercept=0, linetype="dashed")+ylim(-0.2, 0.2)+xlim(63102094, 63102278)#
+merged_data$Qual <- factor(merged_data$Qual, levels=c("NA", "100"))#
+ggdensity(merged_data, x="Amplitude", color="Qual", rug=TRUE)+geom_vline(xintercept=0, linetype="dashed")+theme(legend.position="none")

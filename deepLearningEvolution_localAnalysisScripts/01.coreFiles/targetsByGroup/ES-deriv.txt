@@ -1,0 +1,5 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+bipolar_neuron_originated_from_GM23338_treated_with_0_5_ug_mL_doxycycline_hyclate_for_4_days	bipolar_neuron_from_GM23338_doxycycline_4_days	485	Bipolar Neuron from GM23338 treated with Doxycycline (4 days) DNASE	Bipolar Neuron	ES-deriv	Cell Line	Tissue
+cardiac_mesoderm	cardiac_mesoderm_4	74	Cardiac Mesoderm DNASE	Cardiac Mesoderm	ES-deriv	Cell Line	Tissue
+hepatocyte_originated_from_H9	hepatocyte_from_H9	347	Hepatocyte Originated from H9 DNASE	Hepatocyte Originated from H9	ES-deriv	Cell Line	Cell Line
+neural_stem_progenitor_cell_originated_from_H1_hESC	neural_stem_progenitor_cell_from_H1_hESC	305	Neural Stem Progenitor Cell Originated from H1_hESC DNASE	Neural Stem Progenitor Cell Originated from H1_hESC	ES-deriv	Cell Line	In Vitro Differentiated

@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+testis_male_adult__54_years_	testis_male_adult_54_years	665	Testis (Male Adult, 54 years) DNASE	Testis (Male Adult, 54 years)	Reproductive	Adult	Tissue
+vagina_female_adult__51_year_	vagina_female_adult_51_year	534	Vagina (Female Adult, 51 year) DNASE	Vagina (Female Adult, 51 year)	Reproductive	Adult	Tissue

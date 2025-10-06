@@ -1,0 +1,2 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+H1_hESC	H1_hESC_1	19	H1 hESC DNASE	H1 hESC	ESC	Cell Line	Cell Line

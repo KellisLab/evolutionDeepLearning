@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	/Users/dickinsonia/Scavenger/Datasets/Genomes/hg38/bed/HGE_merged.bed	divergentPeaks/upregulatedResults/dermis_blood_vessel_endothelial_cell_male_newborn_2.upregulated.bed	1	30	0	1.000000	0.004591	0.000000	5.874602e+00	5.874602e+00

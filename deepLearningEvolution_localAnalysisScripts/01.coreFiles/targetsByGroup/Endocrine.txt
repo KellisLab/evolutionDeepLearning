@@ -1,0 +1,5 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+adrenal_gland_female_embryo__85_days_	adrenal_gland_female_embryo_85_days	608	Adrenal Gland Female Embryo (85 days) DNASE	Adrenal Gland	Endocrine	Developing	Tissue
+adrenal_gland_male_adult__37_years_	adrenal_gland_male_adult_37_years	265	Adrenal Gland Male Adult (37 years) DNASE	Adrenal Gland	Endocrine	Adult	Tissue
+ovary_female_adult__30_years_	ovary_female_adult_30_years	525	Ovary (Female Adult, 30 years) DNASE	Ovary (Female Adult, 30 years)	Endocrine	Adult	Tissue
+thyroid_gland_male_adult__54_years_	thyroid_gland_male_adult_54_years	618	Thyroid Gland (Male Adult, 54 years) DNASE	Thyroid Gland (Male Adult, 54 years)	Endocrine	Adult	Tissue

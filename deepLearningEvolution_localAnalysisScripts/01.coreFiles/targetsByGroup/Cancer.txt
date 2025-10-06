@@ -1,0 +1,26 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+A172	A172	631	A172 DNASE	A172	Cancer	Cell Line	Cell Line
+A549	A549	47	A549 DNASE	A549	Cancer	Cell Line	Cell Line
+A673	A673	340	A673 DNASE	A673	Cancer	Cell Line	Cell Line
+ACHN	ACHN	290	ACHN DNASE	ACHN	Cancer	Cell Line	Cell Line
+Caco_2	Caco_2	59	Caco-2 DNASE	Caco-2	Cancer	Cell Line	Cell Line
+Caki2	Caki2	425	Caki2 DNASE	Caki2	Cancer	Cell Line	Cell Line
+CMK	CMK	63	CMK DNASE	CMK	Cancer	Cell Line	Cell Line
+EH	EH	443	EH DNASE	EH	Cancer	Cell Line	Cell Line
+HeLa_S3	HeLa_S3_1	25	HeLa S3 DNASE	HeLa S3	Cancer	Cell Line	Cell Line
+HeLa_S3_G1b_phase	HeLa_S3_G1b_phase	90	HeLa S3 G1b Phase DNASE	HeLa S3 G1b Phase	Cancer	Cell Line	Cell Line
+HT_29	HT_29	575	HT-29 DNASE	HT-29	Cancer	Cell Line	Cell Line
+Jurkat_clone_E61	Jurkat_clone_E61	120	Jurkat Clone E61 DNASE	Jurkat Clone E61	Cancer	Cell Line	Cell Line
+LNCaP_clone_FGC	LNCaP_clone_FGC_2	126	LNCaP Clone FGC DNASE	LNCaP Clone FGC	Cancer	Cell Line	Cell Line
+medulloblastoma	medulloblastoma	39	Medulloblastoma DNASE	Medulloblastoma	Cancer	Cell Line	Cell Line
+MG63	MG63	206	MG63 DNASE	MG63	Cancer	Cell Line	Cell Line
+MM_1S	MM_1S	398	MM.1S DNASE	MM.1S	Cancer	Cell Line	Cell Line
+NB4	NB4	132	NB4 DNASE	NB4	Cancer	Cell Line	Cell Line
+PC_3	PC_3	190	PC_3 DNASE	PC_3	Cancer	Cell Line	Cell Line
+PC_9	PC_9	636	PC_9 DNASE	PC_9	Cancer	Cell Line	Cell Line
+SJCRH30	SJCRH30_2	521	SJCRH30 DNASE	SJCRH30	Cancer	Cell Line	Cell Line
+SK_MEL_5	SK_MEL_5_1	162	SK MEL 5 DNASE	SK MEL 5	Cancer	Cell Line	Cell Line
+SK_N_DZ_treated_with_dimethyl_sulfoxide_for_72_hours	SK_N_DZ_dimethyl_sulfoxide_72_hours	165	SK N DZ (Treated with Dimethyl Sulfoxide for 72 hours) DNASE	SK N DZ (Treated with Dimethyl Sulfoxide for 72 hours)	Cancer	Cell Line	Cell Line
+SK_N_MC	SK_N_MC	145	SK N MC DNASE	SK N MC	Cancer	Cell Line	Cell Line
+T47D_treated_with_10_nM_17B_estradiol_for_30_minutes	T47D_estradiol_30_minutes	45	T47D (Treated with 10 nM 17B Estradiol for 30 minutes) DNASE	T47D (Treated with 10 nM 17B Estradiol for 30 minutes)	Cancer	Cell Line	Cell Line
+WERI_Rb_1	WERI_Rb_1	158	WERI-Rb-1 DNASE	WERI-Rb-1	Cancer	Cell Line	Cell Line

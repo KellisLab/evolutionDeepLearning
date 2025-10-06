@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+dermis_blood_vessel_endothelial_cell_male_newborn	dermis_blood_vessel_endothelial_cell_male_newborn_2	104	Dermis Blood Vessel Endothelial Cell Male Newborn DNASE	Dermis Blood Vessel Endothelial Cell	Endothelial	Newborn	Tissue
+tibial_artery_male_adult__37_years_	tibial_artery_male_adult_37_years	335	Tibial Artery (Male Adult, 37 years) DNASE	Tibial Artery (Male Adult, 37 years)	Endothelial	Adult	Tissue

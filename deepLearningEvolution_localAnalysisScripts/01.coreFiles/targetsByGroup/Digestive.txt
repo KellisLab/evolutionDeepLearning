@@ -1,0 +1,8 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+large_intestine_male_embryo__105_days_	large_intestine_male_embryo_105_days_2	505	Large Intestine Male Embryo (105 days) DNASE	Large Intestine Male Embryo	Digestive	Developing	Tissue
+Peyers_patch_male_adult__54_years_	Peyers_patch_male_adult_54_years	268	Peyers Patch (Male Adult, 54 years) DNASE	Peyers Patch (Male Adult, 54 years)	Digestive	Adult	Tissue
+sigmoid_colon_female_adult__51_year_	sigmoid_colon_female_adult_51_year	399	Sigmoid Colon (Female Adult, 51 year) DNASE	Sigmoid Colon (Female Adult, 51 year)	Digestive	Adult	Tissue
+stomach_male_adult__34_years_	stomach_male_adult_34_years	556	Stomach (Male Adult, 34 years) DNASE	Stomach (Male Adult, 34 years)	Digestive	Adult	Tissue
+stomach_male_adult__54_years_	stomach_male_adult_54_years	243	Stomach (Male Adult, 54 years) DNASE	Stomach (Male Adult, 54 years)	Digestive	Adult	Tissue
+stomach_male_embryo__127_days_	stomach_male_embryo_127_days	475	Stomach (Male Embryo, 127 days) DNASE	Stomach (Male Embryo, 127 days)	Digestive	Developing	Tissue
+transverse_colon_female_adult__51_year_	transverse_colon_female_adult_51_year	546	Transverse Colon (Female Adult, 51 year) DNASE	Transverse Colon (Female Adult, 51 year)	Digestive	Adult	Tissue

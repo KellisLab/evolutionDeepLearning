@@ -1,0 +1,3 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+HK_2	HK_2	490	HK-2 DNASE	HK-2	Kidney	Cell Line	Cell Line
+left_renal_pelvis_male_embryo__105_days_	left_renal_pelvis_male_embryo_105_days_3	325	Left Renal Pelvis Male Embryo (105 days) DNASE	Left Renal Pelvis Male Embryo	Kidney	Developing	Tissue

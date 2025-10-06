@@ -1,0 +1,2 @@
+#Method	Filename1	Filename2	LenElements1	LenElements2	OverlapCount	DebugCheck	ExpectedOverlap	Enrichment	EnrichPValue	DepletePValue
+normalApproximate	/Users/dickinsonia/Scavenger/Datasets/Genomes/hg38/bed/HGE_merged.bed	divergentPeaks/upregulatedResults/GM03348_genetically_modified_transduction_doxycycline_10_days.upregulated.bed	2	276	0	1.000000	0.034955	0.000000	2.096965e+00	2.096962e+00

@@ -1,0 +1,7 @@
+Name	Biosample	Index	Desc	CellLine.or.Tissue	Group	Lifestage	Type
+B_cell_female_adult__34_years_	B_cell_female_adult_34_years	617	B Cell Female Adult (34 years) DNASE	B Cell	HSC & B Cell	Adult	Tissue
+CD14_positive_monocyte_female	CD14_positive_monocyte_female_1	41	CD14 Positive Monocyte Female DNASE	CD14 Positive Monocyte	HSC & B Cell	Adult	Tissue
+HAP_1	HAP_1	480	HAP-1 DNASE	HAP-1	HSC & B Cell	Cell Line	Cell Line
+hematopoietic_multipotent_progenitor_cell	hematopoietic_multipotent_progenitor_cell_2	211	Hematopoietic Multipotent Progenitor Cell DNASE	Hematopoietic Multipotent Progenitor Cell	HSC & B Cell	Adult	Tissue
+K562	K562_3	123	K562 DNASE	K562	HSC & B Cell	Cell Line	Cell Line
+K562_treated_with_1_uM_vorinostat_for_72_hours	K562_vorinostat_72_hours	33	K562 treated with 1 uM vorinostat for 72 hours DNASE	K562 treated with 1 uM vorinostat for 72 hours	HSC & B Cell	Cell Line	Cell Line

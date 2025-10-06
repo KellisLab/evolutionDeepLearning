@@ -1,0 +1,1 @@
+scp -r rimangan@luria.mit.edu:/home/rimangan/data/enformer/divergentPeaks/enhancerPromoterSplits .
