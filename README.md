@@ -1,5 +1,5 @@
 # evolutionDeepLearning
-Analysis scripts associated with "Deep learning predicts cis-regulatory turnover in human evolution". Mangan et al, BioRxiv 2025.
+Analysis scripts associated with "Deep learning predicts cis-regulatory turnover in human evolution". Mangan et al, 2025.
 
 
 Much of this work was done back and forth between local machines and the Luria compute cluster here at MIT, and analysis files are represented in the two directories, respectively.
